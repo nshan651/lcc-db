@@ -1,0 +1,1 @@
+  (let ((isbn (mapcar #'(lambda (row) (parse-integer row :junk-allowed t))
