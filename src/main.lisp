@@ -7,7 +7,7 @@
 (defparameter *api-url-literal* "https://www.loc.gov/{endpoint}/?fo=json"
   "Defines the api-url for LOC.")
 
-(defparameter *csv-file* #P"../library_export.csv"
+(defparameter *csv-file* #P"data/library_export.csv"
   "Define the file parameter. (Note that '#P' is a special pathname symbol).")
 
 (defparameter *books* (cl-csv:read-csv *csv-file*)
